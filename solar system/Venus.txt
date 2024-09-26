@@ -1,0 +1,173 @@
+*******************************************************************************
+ Revised: April 12, 2021                Venus                           299 / 2
+ 
+ PHYSICAL DATA (updated 2020-Oct-19):
+  Vol. Mean Radius (km) =  6051.84+-0.01 Density (g/cm^3)      =  5.204
+  Mass x10^23 (kg)      =    48.685      Volume (x10^10 km^3)  = 92.843
+  Sidereal rot. period  =   243.018484 d Sid. Rot. Rate (rad/s)= -0.00000029924
+  Mean solar day        =   116.7490 d   Equ. gravity  m/s^2   =  8.870
+  Mom. of Inertia       =     0.33       Core radius (km)      = ~3200
+  Geometric Albedo      =     0.65       Potential Love # k2   = ~0.25
+  GM (km^3/s^2)         = 324858.592     Equatorial Radius, Re = 6051.893 km
+  GM 1-sigma (km^3/s^2) =    +-0.006     Mass ratio (Sun/Venus)= 408523.72
+  Atmos. pressure (bar) =  90            Max. angular diam.    =   60.2"
+  Mean Temperature (K)  = 735            Visual mag. V(1,0)    =   -4.40
+  Obliquity to orbit    = 177.3 deg      Hill's sphere rad.,Rp =  167.1
+  Sidereal orb. per., y =   0.61519726   Orbit speed, km/s     =   35.021
+  Sidereal orb. per., d = 224.70079922   Escape speed, km/s    =   10.361
+                                 Perihelion  Aphelion    Mean
+  Solar Constant (W/m^2)         2759         2614       2650
+  Maximum Planetary IR (W/m^2)    153         153         153
+  Minimum Planetary IR (W/m^2)    153         153         153
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Fri Apr 12 09:19:57 2024 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Venus (299)                     {source: DE441}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2024-Jan-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2025-Jan-01 00:00:00.0000 TDB
+Step-size       : 1 calendar months
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Gregorian
+Output type     : LT CORRECTED cartesian states
+Output format   : 3 (position, velocity, LT, range, range-rate)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+   LT    RG    RR
+*******************************************************************************
+$$SOE
+2460310.500000000 = A.D. 2024-Jan-01 00:00:00.0000 TDB [del_T=     69.183884 s]
+ X =-1.081920113224358E+08 Y =-1.187776759100180E+07 Z = 6.048297942710424E+06
+ VX= 3.517776985981810E+00 VY=-3.499021677262173E+01 VZ=-6.829385946234794E-01
+ LT= 3.636181357967803E+02 RG= 1.090099747038946E+08 RR= 2.832738863929290E-01
+2460341.500000000 = A.D. 2024-Feb-01 00:00:00.0000 TDB [del_T=     69.184747 s]
+ X =-6.192049322279967E+07 Y =-9.019062256914642E+07 Z = 2.304438700808857E+06
+ VX= 2.876519917437151E+01 VY=-1.980849482483975E+01 VZ=-1.931233622443254E+00
+ LT= 3.650021406923374E+02 RG= 1.094248889334177E+08 RR= 8.542392778355187E-03
+2460370.500000000 = A.D. 2024-Mar-01 00:00:00.0000 TDB [del_T=     69.185362 s]
+ X = 2.133485866585212E+07 Y =-1.069532092921685E+08 Z =-2.728211754894547E+06
+ VX= 3.404037039980098E+01 VY= 7.102968779198799E+00 VZ=-1.866024221409071E+00
+ LT= 3.639000570897446E+02 RG= 1.090944925812748E+08 RR=-2.598472676106242E-01
+2460401.500000000 = A.D. 2024-Apr-01 00:00:00.0000 TDB [del_T=     69.185640 s]
+ X = 9.393282261452462E+07 Y =-5.329825830447529E+07 Z =-6.178731849780250E+06
+ VX= 1.680294668928267E+01 VY= 3.046196208473849E+01 VZ=-5.506050989269742E-01
+ LT= 3.608395218119151E+02 RG= 1.081769671875386E+08 RR=-3.865820304791048E-01
+2460431.500000000 = A.D. 2024-May-01 00:00:00.0000 TDB [del_T=     69.185474 s]
+ X = 1.015760341553509E+08 Y = 3.407909424398819E+07 Z =-5.418220382395049E+06
+ VX=-1.130170678214283E+01 VY= 3.301751478693876E+01 VZ= 1.106158058682924E+00
+ LT= 3.578387633637481E+02 RG= 1.072773624364984E+08 RR=-2.681736712820147E-01
+2460462.500000000 = A.D. 2024-Jun-01 00:00:00.0000 TDB [del_T=     69.184909 s]
+ X = 3.882391385707493E+07 Y = 9.964718446232282E+07 Z =-8.952961973923221E+05
+ VX=-3.264182427379913E+01 VY= 1.277755970981623E+01 VZ= 2.059537472487056E+00
+ LT= 3.567367680136124E+02 RG= 1.069469925417766E+08 RR= 3.852917668098582E-02
+2460492.500000000 = A.D. 2024-Jul-01 00:00:00.0000 TDB [del_T=     69.184129 s]
+ X =-4.945649736895598E+07 Y = 9.528990851658942E+07 Z = 4.140261688693181E+06
+ VX=-3.136861845229891E+01 VY=-1.598847789377240E+01 VZ= 1.591013252192472E+00
+ LT= 3.583797109906922E+02 RG= 1.074395344552293E+08 RR= 3.204463936450069E-01
+2460523.500000000 = A.D. 2024-Aug-01 00:00:00.0000 TDB [del_T=     69.183292 s]
+ X =-1.057441801425542E+08 Y = 2.326381358715522E+07 Z = 6.400530367109207E+06
+ VX=-7.955873742508660E+00 VY=-3.431013490263079E+01 VZ=-1.154353077587800E-02
+ LT= 3.617902582047105E+02 RG= 1.084619907876448E+08 RR= 3.967185062947328E-01
+2460554.500000000 = A.D. 2024-Sep-01 00:00:00.0000 TDB [del_T=     69.182644 s]
+ X =-8.707629486204916E+07 Y =-6.597260907832138E+07 Z = 4.099442812542398E+06
+ VX= 2.093312601139819E+01 VY=-2.807379609079145E+01 VZ=-1.592813876283486E+00
+ LT= 3.646615645304528E+02 RG= 1.093227867687101E+08 RR= 2.084915063565426E-01
+2460584.500000000 = A.D. 2024-Oct-01 00:00:00.0000 TDB [del_T=     69.182366 s]
+ X =-1.045852581491942E+07 Y =-1.089608018381329E+08 Z =-9.102915462018475E+05
+ VX= 3.466506404448398E+01 VY=-3.205285635747167E+00 VZ=-2.043620409677207E+00
+ LT= 3.651371481553214E+02 RG= 1.094653631525940E+08 RR=-1.044593785825706E-01
+2460615.500000000 = A.D. 2024-Nov-01 00:00:00.0000 TDB [del_T=     69.182527 s]
+ X = 7.468976671886814E+07 Y =-7.893251959109895E+07 Z =-5.409402173891563E+06
+ VX= 2.496731185301589E+01 VY= 2.420074767654944E+01 VZ=-1.107664442275953E+00
+ LT= 3.629288572751726E+02 RG= 1.088033342016552E+08 RR=-3.624106746988219E-01
+2460645.500000000 = A.D. 2024-Dec-01 00:00:00.0000 TDB [del_T=     69.183084 s]
+ X = 1.075661978840671E+08 Y = 2.307227990252553E+06 Z =-6.189111380195514E+06
+ VX=-1.109015422300452E+00 VY= 3.484021546049949E+01 VZ= 5.430798027536134E-01
+ LT= 3.594780392543050E+02 RG= 1.077688049850686E+08 RR=-3.922232734063592E-01
+2460676.500000000 = A.D. 2025-Jan-01 00:00:00.0000 TDB [del_T=     69.183919 s]
+ X = 6.698295618788064E+07 Y = 8.336393017698884E+07 Z =-2.732604391774558E+06
+ VX=-2.735293901182606E+01 VY= 2.183058474378615E+01 VZ= 1.878700658910224E+00
+ LT= 3.568314034220714E+02 RG= 1.069753635234924E+08 RR=-1.629451701057227E-01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Calendar dates are given in the modern Gregorian system, extended prior to
+its 1582-Oct-15 adoption. The Gregorian calendar more closely corresponds to
+physical Earth seasons and orbital motion, but can differ by up to 10 days with
+historical records made under the prior Julian calendar, more if the Julian
+calendar was extended prior to its 45-Jan-1 BC adoption to label the historical
+event. Select "mixed" calendar mode if correlation with historical dates prior
+to A.D. 1582 is important.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+    del_T    Time-scale conversion difference TDB - UT (s)
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+      LT     One-way down-leg Newtonian light-time (sec)
+      RG     Range; distance from coordinate center (km)
+      RR     Range-rate; radial velocity wrt coord. center (km/sec)
+
+ABERRATIONS AND CORRECTIONS
+
+ States have been corrected for Newtonian down-leg (receive) light-time
+ displacement.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
