@@ -27,18 +27,18 @@ current_time = float(starting_time_UNIX)
 
 eclipse_dates = []
 
-# Initialize turtle
-screen = turtle.Screen()
-screen.setup(width=800, height=800)
-val = 1e12
-screen.setworldcoordinates(-val, -val, val, val)  # Adjust this range based on your data
-screen.tracer(0)
-
-draw_orbit = False
-bodies = create_turtle_list()
-for body in bodies:
-    if draw_orbit == False:
-        body.penup()
+## Initialize turtle
+#screen = turtle.Screen()
+#screen.setup(width=800, height=800)
+#val = 1e12
+#screen.setworldcoordinates(-val, -val, val, val)  # Adjust this range based on your data
+#screen.tracer(0)
+#
+#draw_orbit = False
+#bodies = create_turtle_list()
+#for body in bodies:
+#    if draw_orbit == False:
+#        body.penup()
 
 
 
@@ -149,13 +149,13 @@ def iterate_simulation(celestial_objects, tps):
 for count in range(ticks):
     iterate_simulation(celestial_objects, ticks_per_second)
     
-    # Draw the positions of celestial objects
-    for i, obj in enumerate(celestial_objects):
-        x, y, _ = obj.return_coordinates()
-        bodies[i].goto(x, y)
+    ## Draw the positions of celestial objects
+    #for i, obj in enumerate(celestial_objects):
+    #    x, y, _ = obj.return_coordinates()
+    #    bodies[i].goto(x, y)
     
     # Update the screen
-    screen.update()
+    #screen.update()
 
     # Calculate percentage finished
     percent_finished = (count + 1) / ticks * 100
