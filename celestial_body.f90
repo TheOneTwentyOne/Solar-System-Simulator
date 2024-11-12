@@ -3,12 +3,11 @@ MODULE CELESTIAL_BODY
     IMPLICIT NONE
 
     REAL(KIND=REAL64), PARAMETER :: G = 6.6743D-11, C = 299792458
-
     INTEGER, PARAMETER :: ST_TIME_UNIX = 1704067200 ! UNIX time (seconds): Jan 1st, 2024, 00:00:00 GMT
     INTEGER, PARAMETER :: ED_TIME_UNIX = 2020291200 ! UNIX time (seconds): Jan 1st, 2035 (??), 00:00:00 GMT
 
     INTEGER(8) :: START_TIME = 0, TEMP_TIME = 0, END_TIME = 0
-    INTEGER :: ADJUSTED_TIME
+    INTEGER(8) :: ADJUSTED_TIME
 
     TYPE :: C_BODY
         REAL(KIND=REAL64) :: M ! M is the mass of the celestial object in the SI unit kg.
@@ -16,7 +15,7 @@ MODULE CELESTIAL_BODY
         REAL(KIND=REAL64), DIMENSION(0:2) :: P_VEC ! P_VEC is the position vector with its values in meters in 3-D space using the solar barycenter as the origin.
         REAL(KIND=REAL64), DIMENSION(0:2) :: V_VEC ! V_VEC is the velocity vector represents the objects current movement and is measured in m/s.
         REAL(KIND=REAL64), DIMENSION(0:2) :: A_VEC ! A_VEC is the acceleration vector that will be applied when all objects are finished applying forces and is measured in m/s^2.
-    END TYPE
+    END TYPE C_BODY
     
     CONTAINS
 
@@ -51,11 +50,10 @@ MODULE CELESTIAL_BODY
     END SUBROUTINE CALC_ACCEL_VECS
 
 
-
     ! Checks if an eclipse will occur.
     SUBROUTINE ECLIPSE(SOL_SYS_ARR, CURRENT_TIME, HZ)
         TYPE(C_BODY), DIMENSION(0:9), INTENT(IN) :: SOL_SYS_ARR
-        INTEGER, INTENT(IN) :: CURRENT_TIME, HZ
+        INTEGER(8), INTENT(IN) :: CURRENT_TIME, HZ
         REAL(KIND=REAL64) :: SUN_TO_EARTH_VEC(3), SUN_TO_EARTH_UNIT_VEC(3)
         REAL(KIND=REAL64) :: SOL_TO_LUNA_VEC(3), PERPENDICULAR_DISTANCE
 
@@ -83,13 +81,11 @@ MODULE CELESTIAL_BODY
             PRINT "(A, I0, A, I0, A)", "Eclipse from ", START_TIME, " to ", END_TIME, " epoch time."
             PRINT "(A, I0, A)", " Middle: ", (START_TIME + END_TIME) / 2, " epoch time."
 
-
             ! Reset START_TIME and TEMP_TIME for the next eclipse
             START_TIME = 0
             TEMP_TIME = 0
         END IF
     END SUBROUTINE ECLIPSE
-
 
 
 END MODULE CELESTIAL_BODY

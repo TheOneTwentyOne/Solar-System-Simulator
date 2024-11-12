@@ -4,8 +4,8 @@ PROGRAM SOLAR_SYSTEM_SIM
     IMPLICIT NONE
 
     ! Declaration area
-    INTEGER :: COUNTER, I, J, TICKS_END
-    INTEGER :: HZ = 2 ! ticks per second, like hertz (I think).
+    INTEGER(8) :: COUNTER, I, J, TICKS_END
+    INTEGER(8) :: HZ = 2 ! ticks per second, like hertz (I think).
     REAL(KIND=REAL64), DIMENSION(0:2) :: ZERO_ARR = (/0.0, 0.0, 0.0/)
 
     TYPE(C_BODY), DIMENSION(0:9) :: C_BODY_SYSTEM
