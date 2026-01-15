@@ -1,0 +1,35 @@
+# --- Fortran Compiled Modules ---
+*.mod
+*.smod
+
+# --- Compiled Object Files ---
+*.obj
+*.o
+
+# --- Executables ---
+*.exe
+a.out
+
+# --- Libraries ---
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# --- Windows Linker & Debugger ---
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# --- Directories ---
+bin/
+
+# --- Misc. ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.vs/
+*.sln
